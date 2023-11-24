@@ -1,0 +1,7 @@
+# Konfiguracja pluginu GSXPlugin
+
+# Ustawienia ogólne
+debug: false
+prefix: "&7[&cGSXPlugin&7] "
+
+# Ustawienia skry

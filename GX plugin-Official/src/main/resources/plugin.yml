@@ -1,0 +1,8 @@
+name: GSXPlugin
+version: 1.0
+main: com.example.gsxplugin.GSXPlugin
+commands:
+  gsx:
+  reloadscripts:
+  gsx:testv1:
+  gsx:testv2:

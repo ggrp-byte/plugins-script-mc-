@@ -1,0 +1,20 @@
+// testv1.sk
+
+// Funkcja inicjalizująca skrypt
+function init() {
+    server.log("Skrypt testv1 został aktywowany!");
+}
+
+// Wywołanie funkcji inicjalizującej
+init();
+
+// Przykładowa funkcja dodająca dwie liczby
+function dodajLiczby(a, b) {
+    return a + b;
+}
+
+// Komenda aktywująca skrypt
+command("gsx:testv1", (params, sender) => {
+    var wynik = dodajLiczby(3, 5);
+    server.broadcastMessage("Wynik dodawania: " + wynik);
+});

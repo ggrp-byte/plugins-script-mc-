@@ -1,0 +1,18 @@
+// testv2.sk
+
+// Importowanie funkcji z innego skryptu
+import("skrypt_z_funkcjami");
+
+// Funkcja inicjalizująca skrypt
+function init() {
+    server.log("Skrypt testv2 został aktywowany!");
+}
+
+// Wywołanie funkcji inicjalizującej
+init();
+
+// Komenda aktywująca skrypt
+command("gsx:testv2", (params, sender) => {
+    var wynik2 = funkcjaZImportowanegoSkryptu(10, 7);
+    server.broadcastMessage("Wynik importowanej funkcji: " + wynik2);
+});
