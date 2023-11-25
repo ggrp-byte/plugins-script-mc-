@@ -2,7 +2,7 @@ name: GSXPlugin
 version: 1.0
 main: com.example.gsxplugin.GSXPlugin
 commands:
-  gsx:
-  reloadscripts:
-  gsx:testv1:
-  gsx:testv2:
+  gsx: com.example.gsxplugin.GSXCommandExecutor
+  reloadscripts: com.example.gsxplugin.ReloadScriptCommandExecutor
+  gsx:testv1: com.example.gsxplugin.MojListener
+  gsx:testv2: com.example.gsxplugin.ScriptManager
